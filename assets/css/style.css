@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    scroll-behavior: smooth;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+.mt-32{
+    margin-top: 32px;
+}
+.right {
+    float: right !important;
+}
+.fs{
+    font-size: 11px;
+}
+.padding-2{
+    padding: 4px 0;
+}
+.text-white{
+    color: white !important;
+}
+.center{
+    text-align: center !important;
+}
+.margin-{
+    margin: -10px 0;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 32%;
+}
+.col-2{
+    width: 49%;
+}
+.col-1{
+    width: 100%;
+}
+#header{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 36px;
+    background-color: black;
+}
+#nav {
+    display: inline-block;
+}
+#nav li a{ 
+    text-decoration: none;
+    display: block;
+}
+#nav > li { 
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a{
+    color: white;
+    line-height: 36px;
+    padding: 0 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+    background-color: #ccc;
+    color: black;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+.subnav {
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.subnav a{ 
+    padding: 8px 25px 8px 10px;
+    color: black;
+    font-size: smaller;
+}
+.ti-arrow-circle-down {
+    font-size: 10px;
+}
+.search{
+    font-size: 13px;
+    font-weight: 900;
+    color: white;
+    float: right;
+    line-height: 36px;
+    padding: 0 20px;
+}
+#header .search:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#slider{
+    margin-top: 36px;
+    position: relative;
+    padding-top: 50%;
+    background: url(/assets/img/chicago.jpg) top center / cover no-repeat;
+}
+#slider .slider-content{
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
+}
+.slider-name{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.slider-decs{
+    font-size: smaller;
+    font-weight: 500;
+    text-shadow: 0 0 1px #000;
+}
+
+.ct-section{
+    padding: 48px 20px ;
+}
+.ct-name{
+    text-align: center;
+    letter-spacing: 4.6px;
+    padding: 18px 0;
+    font-weight: lighter;
+}
+.ct-slg{
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+    font-size: smaller;
+    padding-bottom: 18px;
+}
+/* About */
+.about-text{
+    text-align: justify;
+    font-size: 10px;
+    line-height: 1.5;
+}
+.member-img{
+    height: 18vw;
+    border-radius: 10px;
+}
+.member-name{
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.tour-section{
+    background-color: black;
+}
+.tour-box{
+    margin: 10px 0;
+}
+.tour-date{
+    background-color: white;
+    padding: 5px;  
+    font-size: 10px; 
+    border: 0.02px solid rgba(0, 0, 0, 0.1); 
+}
+.tour-date i{
+    color: black;
+    opacity: 0.6;
+}
+.sold-out{
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+    margin-left: 6px ;
+}
+.quantity{
+    background-color: black;
+    color: white;
+    float: right;
+    padding: 1px 2px;
+    border-radius: 50%;
+}
+.tour-img{
+    width: 100%;
+}
+.tour-img:hover{
+    opacity: 0.6;
+}
+.tour-place{
+    background-color: #fff;
+    margin-top: -4px;
+    padding: 12px 10px;
+    font-size: 9px;
+}
+.place-name{
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.tour-day{
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+.tour-decs{
+    margin-bottom: 14px;
+}
+.tour-btn{
+    background-color: black;
+    color: white;
+    padding: 6px 8px;
+    text-decoration: none;
+    font-size: 10px;
+    border: none;
+
+}
+.tour-btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+.contact-text{
+    font-size: 11px;
+}
+.contact-text span {
+    margin-left: 6px;
+}
+.contact-text span a {
+    color: #0b38ff;
+    opacity: 0.8;
+}
+.contact-text span a:hover {
+    opacity: 1;
+}    
+.contact-btn{
+    margin-top: 5px;
+    font-size: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 8px 10px;
+}
+.contact-btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+.form-contact{
+    border: 1px solid #ccc;
+    padding: 3px;
+    width: 100%;
+}
+
+.map{
+    padding-top: 50%;
+    background: url(/assets/img/map.jpg) top center /cover no-repeat;
+    filter: grayscale(50%);
+}
+#footer{
+    padding: 48px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(141, 136, 136);
+}
+.ti:hover{
+    opacity: 0.6;
+}
+.link{
+    margin-top: 6px;
+    font-size: 10px;
+}
+.w3{
+    color: rgb(141, 136, 136);
+}
+/* Modal */
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container{
+    position: relative;
+    width: 90vw;
+    max-width: 600px;
+    background-color: #fff;
+    animation: modalFadeIn ease .6s;
+}
+.modal.open{
+    display: flex;
+}
+.modal-close{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    font-size: 6px;
+    color: white;
+    opacity: 0.6;
+}
+.modal-close:hover{
+    opacity: 1;
+}
+.modal-header{
+    height: 86px;
+    background-color: #009688;
+    text-align: center;
+    padding: 33px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.modal-body{
+    padding: 12px;
+}
+.modal-box{
+    margin-bottom: 12px;
+}
+.modal-label{
+    font-size: smaller;
+}
+.modal-input{
+    margin-top: 6px;
+    font-size: 10px;
+    padding: 4px;
+    border: 1px solid #ccc;
+}
+.modal-pay{
+    border: none;
+    background-color: #009688;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+.modal-pay:hover{
+    background-color: #ccc;
+    color: black;
+}
+.modal-footer{
+    float: right;
+    padding: 10px 10px 18px 0;
+    font-size: 11px;
+}
+.modal-footer a{
+    color: #2196F3;
+}
+@keyframes modalFadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

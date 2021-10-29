@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.text-left{
+    text-align: left !important;
+}
+.text-white{
+    color: white !important;
+}
+.padding-36{
+    padding: 36px 0 !important ;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-full{
+    width: 100%;
+}
+.col-half{
+    flex-basis: 49%;
+}
+.col-third{
+    flex-basis: 30%;
+}
+/* Header */
+#header{
+    height: 36px;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a{
+    color: white; 
+    text-transform: uppercase;
+    padding: 0 16px;
+    line-height: 36px;
+}
+#nav li a{
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+#nav > li:hover > a,
+#nav .subnav li:hover{
+    color: black;
+    background-color: #ccc;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .subnav{
+    background-color: white;
+    display: none;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+#nav .subnav li{
+    display: block;
+}
+#nav .subnav a{
+    color: black;
+    padding: 9px 24px 9px 8px;
+}
+#nav i{
+    font-size: smaller;
+}
+#nav{
+    display: inline-block;
+}
+#search {
+    float: right;
+}
+#search i{
+    color: white;
+    line-height: 36px;
+    padding: 0 16px;
+    font-weight: 900;
+    font-size: smaller;
+    display: inline-block;
+}
+#search:hover{
+    background-color: red;
+    cursor: pointer;
+}
+/* Slider */
+#slider{
+    position: relative;
+    margin-top: 36px;
+    padding-top: 50%;
+    background: url(/assets/img/chicago.jpg) top center / cover no-repeat ;
+}
+#slider .slider-content{
+    position: absolute;
+    color: white;
+    bottom: 32px;
+    text-align: center;
+    width: 100%;
+}
+#slider .slider-name{
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+#slider .slider-decs{
+    font-size: 11px;
+    font-weight: 700;
+}
+/* Content */
+.content-header {
+    margin: 0 14vw;
+    text-align: center;
+    padding: 40px 0;
+}
+.content-header .content-name{
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: inherit;
+    margin: 12px 0;
+}
+.content-header .content-slg{
+    font-style: italic;
+    font-size: 11px;
+    opacity: 0.6;
+    margin: 5px 0;
+}
+ /* Content About */
+.about-text{
+    margin-top: 16px;
+    font-size: 11px;
+    text-align: justify;
+    line-height: 1.4;
+}
+.member-img{
+    height: 16vw;
+    border-radius: 3%;
+}
+.member-name{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+ /* Content Tour */
+#tour-section{
+    background-color: black;
+} 
+.tour-box{
+    margin-top:24px;
+    background-color: white;
+    text-align: left;
+}
+.tour-date{
+    border: 1px solid #ccc;
+    font-size: 11px;
+    padding: 4px 10px;
+    color: #757575;
+}
+.sold-out{
+    background-color:red;
+    padding: 0 2px;
+    margin-left: 14px;
+}
+.quantity{
+    float: right;
+    background-color: black;
+    padding: 1px 3px;
+    border-radius: 50%;
+}
+.tour-img{
+    height: 17vw;
+}
+.tour-img:hover{
+    opacity: 0.6;
+}
+.tour-place{
+    background-color: white;
+    margin-top: -4px;
+    text-align: left;
+    padding: 8px; 
+    font-size: 10px;
+}
+.place-name{
+    margin: 6px 0 12px 0;
+}
+.place-date{
+    opacity: 0.6;
+    margin: 12px 0;
+}
+.place-decs{
+    margin: 12px 0;
+}
+.tour-btn{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 6px 8px;
+    margin: 6px 0 4px 0;
+}
+.tour-btn:hover{
+    background-color: #ccc;
+    color: white;
+    cursor: pointer;
+}
+ /* Content Contact */
+.content-info i[class*="ti-"]{
+    width: 24px;
+    display: inline-block;
+}
+.content-info p{
+    font-size: 13px;
+    line-height: 18px;
+}
+.contact-input{
+    padding: 2px 3px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.contact-btn{
+    float: right;
+    margin-top: 7px;
+    border: none;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+}
+.contact-btn:hover{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+.map-section{
+    padding-top: 50%;
+    background: url(/assets/img/map.jpg) top center / cover no-repeat rgba(121, 23, 23, 0.4);
+}
+/* Footer */
+#footer{
+    text-align: center;
+    text-decoration: none;
+}

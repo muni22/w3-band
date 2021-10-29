@@ -1,0 +1,92 @@
+/* PC */
+@media(min-width : 824px){
+    .ct-section{
+        padding: 48px 20px ;
+        margin: 0 24vw ;
+    }
+    .member-img{
+        height: 12vw;
+        border-radius: 10px;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    .mobile-contact{
+        display: none;
+    }
+}
+/* Ipad */
+@media(min-width : 540px) and (max-width : 823px){
+    .mobile-menu{
+        display: none;
+    }
+    .mobile-contact{
+        display: none;
+    }
+}
+/* Mobile */
+@media(max-width : 539px){
+    button{
+        width: 100%;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search{
+        display: none;
+    }
+    .mobile-menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 13px;
+        font-weight: 900;
+        color: white;
+        float: right;
+        line-height: 36px;
+        padding: 0 20px;
+    }
+    .mobile-menu:hover{
+        background-color: #ccc;
+        color: black;
+    }
+    #nav {
+        display: block;
+        position: relative;
+    }
+    #nav > li { 
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    .subnav a {
+        color: white;
+        padding: 10px 25px;
+    }
+    .about-member{
+        width: 100%; 
+        margin-top: 30px;
+    }
+    .member-img{
+        height: 50vw;
+    }
+    .member-name{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .col-2,
+    .col-3{
+        width: 100%;
+    }
+    .mobile-contact{
+        margin-bottom: 16px;
+    }
+    .form-contact{
+        font-size: 10px;
+    }
+}
