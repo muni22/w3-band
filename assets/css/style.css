@@ -5,7 +5,7 @@
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     scroll-behavior: smooth;
 }
 
@@ -19,7 +19,7 @@ html{
     float: right !important;
 }
 .fs{
-    font-size: 11px;
+    font-size: 1rem;
 }
 .padding-2{
     padding: 4px 0;
@@ -53,7 +53,7 @@ html{
     top: 0;
     right: 0;
     left: 0;
-    height: 36px;
+    height: 52px;
     background-color: black;
 }
 #nav {
@@ -69,8 +69,8 @@ html{
 }
 #nav > li > a{
     color: white;
-    line-height: 36px;
-    padding: 0 14px;
+    line-height: 52px;
+    padding: 0 15px;
     font-weight: 100;
     text-transform: uppercase;
     font-size: smaller;
@@ -91,7 +91,7 @@ html{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .subnav a{ 
-    padding: 8px 25px 8px 10px;
+    padding: 12px 50px 12px 14px;
     color: black;
     font-size: smaller;
 }
@@ -99,12 +99,11 @@ html{
     font-size: 10px;
 }
 .search{
-    font-size: 13px;
     font-weight: 900;
     color: white;
     float: right;
-    line-height: 36px;
-    padding: 0 20px;
+    line-height: 52px;
+    padding: 0 25px;
 }
 #header .search:hover{
     background-color: red;
@@ -114,48 +113,45 @@ html{
     margin-top: 36px;
     position: relative;
     padding-top: 50%;
-    background: url(assets/img/chicago.jpg) top center / cover no-repeat;
+    background: url(/assets/img/chicago.jpg) top center / cover no-repeat;
 }
 #slider .slider-content{
     position: absolute;
     color: white;
-    bottom: 10px;
+    bottom: 30px;
     text-align: center;
     width: 100%;
-    padding: 8px 0;
+    padding: 10px 0;
 }
 .slider-name{
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: lighter;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: 500;
 }
 .slider-decs{
-    font-size: smaller;
+    font-size: 1rem;
     font-weight: 500;
     text-shadow: 0 0 1px #000;
-}
-
-.ct-section{
-    padding: 48px 20px ;
 }
 .ct-name{
     text-align: center;
     letter-spacing: 4.6px;
     padding: 18px 0;
     font-weight: lighter;
+    font-size: 2rem;
 }
 .ct-slg{
     text-align: center;
     font-style: italic;
     opacity: 0.6;
-    font-size: smaller;
-    padding-bottom: 18px;
+    font-size: 1rem;
+    padding-bottom: 24px;
 }
 /* About */
 .about-text{
     text-align: justify;
-    font-size: 10px;
-    line-height: 1.5;
+    font-size: 0.8rem;
+    line-height: 1.6;
 }
 .member-img{
     height: 18vw;
@@ -163,19 +159,19 @@ html{
 }
 .member-name{
     text-align: center;
-    font-size: 13px;
+    font-size: 1rem;
     margin-bottom: 5px;
 }
 .tour-section{
     background-color: black;
 }
 .tour-box{
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .tour-date{
     background-color: white;
-    padding: 5px;  
-    font-size: 10px; 
+    padding: 8px;  
+    font-size: 0.9rem; 
     border: 0.02px solid rgba(0, 0, 0, 0.1); 
 }
 .tour-date i{
@@ -192,7 +188,7 @@ html{
     background-color: black;
     color: white;
     float: right;
-    padding: 1px 2px;
+    padding: 1px 5px;
     border-radius: 50%;
 }
 .tour-img{
@@ -203,9 +199,9 @@ html{
 }
 .tour-place{
     background-color: #fff;
-    margin-top: -4px;
+    margin-top: -5px;
     padding: 12px 10px;
-    font-size: 9px;
+    font-size: 0.8rem;
 }
 .place-name{
     margin-bottom: 8px;
@@ -221,18 +217,16 @@ html{
 .tour-btn{
     background-color: black;
     color: white;
-    padding: 6px 8px;
+    padding: 6px 10px;
     text-decoration: none;
-    font-size: 10px;
     border: none;
-
 }
 .tour-btn:hover{
     background-color: #ccc;
     color: black;
 }
 .contact-text{
-    font-size: 11px;
+    font-size: 0.8rem;
 }
 .contact-text span {
     margin-left: 6px;
@@ -246,11 +240,10 @@ html{
 }    
 .contact-btn{
     margin-top: 5px;
-    font-size: 10px;
     border: none;
     background-color: black;
     color: white;
-    padding: 8px 10px;
+    padding: 8px 14px;
 }
 .contact-btn:hover{
     background-color: #ccc;
@@ -258,19 +251,17 @@ html{
 }
 .form-contact{
     border: 1px solid #ccc;
-    padding: 3px;
+    padding: 6px;
     width: 100%;
 }
-
 .map{
     padding-top: 50%;
-    background: url(assets/img/map.jpg) top center /cover no-repeat;
+    background: url(/assets/img/map.jpg) top center /cover no-repeat;
     filter: grayscale(50%);
 }
 #footer{
     padding: 48px;
     text-align: center;
-    font-size: 14px;
     color: rgb(141, 136, 136);
 }
 .ti:hover{
@@ -278,7 +269,7 @@ html{
 }
 .link{
     margin-top: 6px;
-    font-size: 10px;
+    font-size: 0.9rem;
 }
 .w3{
     color: rgb(141, 136, 136);
