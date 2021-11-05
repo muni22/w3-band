@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+      <div id="toast">
+        <!-- Success -->
+        
+        <!-- Error -->
+        <div class="toast toast--warning">
+          <div class="toast__icon">
+            <i class="fa fa-exclamation" aria-hidden="true"></i>
+          </div>
+          <div class="toast__body">
+            <h3 class="toast__title">error</h3>
+            <p class="toast__msg">Bạn đã ko đăng ký thành công tài khoản tại F8</p>
+          </div>
+          <div class="toast__close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+        </div>        
+      </div>
+    <div id="btn">
+      <div class="btn btn--success">Show success toast</div>
+      <div class="btn btn--error">Show error toast</div>
+    </div>
+    <script>
+      function toast({
+        title = '',
+        message = '',
+        type = 'info',
+        duration = 3000
+      }) {
+        const main = document.getElementById('toast');
+        if (main){
+          const toast = document.createElement('div');
+          toast.classList.add('toast');
+          toast.innerHTML = 
+        }
+      }
+      toast({
+        title: 'Success',
+        message: 'Bạn đã đăng ký thành công tài khoản tại F8',
+        type: 'success',
+        duration: 3000
+      });
+    </script>
+</body>
+</html>
