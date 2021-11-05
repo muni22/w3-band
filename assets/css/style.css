@@ -113,7 +113,7 @@ html{
     margin-top: 36px;
     position: relative;
     padding-top: 50%;
-    background: url("http://127.0.0.1:5500//assets/img/chicago.jpg") top center / cover no-repeat;
+    background: url("http://127.0.0.1:5500/assets/img/chicago.jpg") top center / cover no-repeat;
 }
 #slider .slider-content{
     position: absolute;
@@ -256,7 +256,7 @@ html{
 }
 .map{
     padding-top: 50%;
-    background: url("http://127.0.0.1:5500//assets/img/map.jpg") top center /cover no-repeat;
+    background: url("http://127.0.0.1:5500/assets/img/map.jpg") top center /cover no-repeat;
     filter: grayscale(50%);
 }
 #footer{
