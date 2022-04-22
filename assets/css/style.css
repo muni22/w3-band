@@ -113,7 +113,7 @@ html{
     margin-top: 36px;
     position: relative;
     padding-top: 50%;
-    background: url("http://127.0.0.1:5500/assets/img/chicago.jpg") top center / cover no-repeat;
+    background: url("/w3-band/assets/img/chicago.jpg") top center / cover no-repeat;
 }
 #slider .slider-content{
     position: absolute;
@@ -256,7 +256,7 @@ html{
 }
 .map{
     padding-top: 50%;
-    background: url("http://127.0.0.1:5500/assets/img/map.jpg") top center /cover no-repeat;
+    background: url("/w3-band/assets/img/map.jpg") top center /cover no-repeat;
     filter: grayscale(50%);
 }
 #footer{
@@ -308,12 +308,12 @@ html{
     opacity: 1;
 }
 .modal-header{
-    height: 86px;
+    height: 96px;
     background-color: #009688;
     text-align: center;
     padding: 33px;
     color: white;
-    font-size: 18px;
+    font-size: 28px;
     letter-spacing: 2px;
 }
 .modal-body{
@@ -327,8 +327,8 @@ html{
 }
 .modal-input{
     margin-top: 6px;
-    font-size: 10px;
-    padding: 4px;
+    font-size: 16px;
+    padding: 11px;
     border: 1px solid #ccc;
 }
 .modal-pay{
@@ -336,7 +336,7 @@ html{
     background-color: #009688;
     color: white;
     padding: 10px;
-    font-size: 12px;
+    font-size: 16px;
 }
 .modal-pay:hover{
     background-color: #ccc;
